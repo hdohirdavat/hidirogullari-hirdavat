@@ -1,0 +1,11 @@
+
+body{margin:0;font-family:Arial,sans-serif;background:#f5f7fa}
+.container{width:90%;max-width:1200px;margin:auto;padding:40px 0}
+header{background:#0F3E8A;color:white;position:sticky;top:0}
+.nav{display:flex;justify-content:space-between;align-items:center}
+.logo{height:70px}
+nav a{color:white;text-decoration:none;margin:0 10px}
+.hero{height:80vh;background:linear-gradient(#0F3E8Acc,#0B1730cc),url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80');background-size:cover;display:flex;align-items:center;justify-content:center;color:white;text-align:center}
+.btn{background:#FF6B00;color:white;padding:12px 25px;text-decoration:none;border-radius:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.card{background:white;padding:25px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
